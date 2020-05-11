@@ -63,16 +63,16 @@ public class Application {
 
 	        // create a label and a button
 	        Label label = new Label(shell, SWT.NONE);
-	        label.setData("Developer name", "Holy smokes batman - this is an ID!");
+	        label.setData("developer name", "Holy smokes batman - this is an ID!");
 	        
 	        label.setText("A label");
 	        Button button = new Button(shell, SWT.PUSH);
-	        button.setData("Developer name", "Click on the party link!");
+	        button.setData("developer name", "Click on the party link!");
 	        button.setText("Press Me");
 
 	        // create a new label that will span two columns
 	        label = new Label(shell, SWT.BORDER);
-	        label.setData("Developer name", "https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+	        label.setData("developer name", "https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 	        label.setText("This is a label");
 	        // create new layout data
 	        GridData data = new GridData(SWT.FILL, SWT.TOP, true, false, 2, 1);
@@ -80,7 +80,7 @@ public class Application {
 
 	        // create a new label which is used as a separator
 	        label = new Label(shell, SWT.SEPARATOR | SWT.HORIZONTAL);
-	        label.setData("Developer name", "This calls for a coffee.");
+	        label.setData("developer name", "This calls for a coffee.");
 	        
 	        // create new layout data
 	        data = new GridData(SWT.FILL, SWT.TOP, true, false);
@@ -89,7 +89,7 @@ public class Application {
 
 	        // creates a push button
 	        Button b = new Button(shell, SWT.PUSH);
-	        b.setData("Developer name", "A coffee or something stronger.");
+	        b.setData("developer name", "A coffee or something stronger.");
 	        b.setText("New Button");
 
 	        data = new GridData(SWT.LEFT, SWT.TOP, false, false, 2, 1);
@@ -97,7 +97,7 @@ public class Application {
 
 	         // create a spinner with min value 0 and max value 1000
 	        Spinner spinner = new Spinner(shell, SWT.READ_ONLY);
-	        spinner.setData("Developer name", "It's been weeks already!");
+	        spinner.setData("developer name", "It's been weeks already!");
 	        spinner.setMinimum(0);
 	        spinner.setMaximum(1000);
 	        spinner.setSelection(500);
@@ -116,13 +116,13 @@ public class Application {
 	        composite.setLayout(new GridLayout(1, false));
 
 	        Text txtTest = new Text(composite, SWT.NONE);
-	        txtTest.setData("Developer name", "Phew it works!");
+	        txtTest.setData("developer name", "Phew it works!");
 	        txtTest.setText("Testing");
 	        gridData = new GridData(SWT.FILL, SWT.FILL, true, false);
 	        txtTest.setLayoutData(gridData);
 
 	        Text txtMoreTests = new Text(composite, SWT.NONE);
-	        txtMoreTests.setData("Developer name", "<a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">link</a>");
+	        txtMoreTests.setData("developer name", "<a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">link</a>");
 	        txtMoreTests.setText("Another test");
 
 	        Group group = new Group(shell, SWT.NONE);

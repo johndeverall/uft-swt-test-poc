@@ -53,7 +53,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>nz.co.bnz.mylending.test_poc.StartApplication</mainClass>
+							<mainClass>nz.co.johndeverall.swt.test_poc.StartApplication</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
